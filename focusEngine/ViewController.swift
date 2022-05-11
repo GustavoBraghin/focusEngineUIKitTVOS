@@ -40,9 +40,3 @@ class ViewController: UIViewController {
     @IBOutlet var rightView: UIView!
 }
 
-extension UIButton {
-    open override var canBecomeFocused: Bool{
-        return false
-    }
-}
-
