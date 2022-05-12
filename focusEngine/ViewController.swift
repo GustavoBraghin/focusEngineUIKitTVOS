@@ -38,5 +38,33 @@ class ViewController: UIViewController {
     
     @IBOutlet var leftView: UIView!
     @IBOutlet var rightView: UIView!
+    
+    @IBAction func didPressLeftTop(_ sender: Any) {
+        leftBot.backgroundColor = .green
+        leftTop.backgroundColor = .green
+        rightBot.backgroundColor = .green
+        rightTop.backgroundColor = .green
+    }
+    
+    @IBAction func didPressLeftBot(_ sender: Any) {
+        leftBot.backgroundColor = .black
+        leftTop.backgroundColor = .black
+        rightBot.backgroundColor = .black
+        rightTop.backgroundColor = .black
+    }
+    
+    @IBAction func didPressRightTop(_ sender: Any) {
+        leftBot.backgroundColor = .cyan
+        leftTop.backgroundColor = .cyan
+        rightBot.backgroundColor = .cyan
+        rightTop.backgroundColor = .cyan
+    }
+    
+    @IBAction func didPressRightBot(_ sender: Any) {
+        leftBot.backgroundColor = .gray
+        leftTop.backgroundColor = .gray
+        rightBot.backgroundColor = .gray
+        rightTop.backgroundColor = .gray
+    }
 }
 

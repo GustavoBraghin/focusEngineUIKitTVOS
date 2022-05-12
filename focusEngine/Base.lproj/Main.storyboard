@@ -30,7 +30,10 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="rightBot"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Gray"/>
+                                        <connections>
+                                            <action selector="didPressRightBot:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="54x-Qr-CEL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WIq-cx-Ab7">
                                         <rect key="frame" x="101" y="43" width="220" height="90"/>
@@ -38,7 +41,10 @@
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="rightTop"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Cyan"/>
+                                        <connections>
+                                            <action selector="didPressRightTop:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="SFn-1J-Bk0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -53,7 +59,10 @@
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="leftTop"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Green"/>
+                                        <connections>
+                                            <action selector="didPressLeftTop:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="N6d-bg-gl2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqD-mD-LEG">
                                         <rect key="frame" x="111" y="289" width="220" height="90"/>
@@ -61,7 +70,10 @@
                                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="leftBot"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Black"/>
+                                        <connections>
+                                            <action selector="didPressLeftBot:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="MaD-n2-kZI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
